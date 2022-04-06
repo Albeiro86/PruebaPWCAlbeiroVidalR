@@ -1,3 +1,6 @@
+/* ******Developed by******
+***Albeiro Vidal Rojas** */
+
 import { Component } from '@angular/core';
 
 @Component({

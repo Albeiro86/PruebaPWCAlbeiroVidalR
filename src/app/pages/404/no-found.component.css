@@ -1,0 +1,17 @@
+/* ******Developed by******
+***Albeiro Vidal Rojas** */
+
+.error-box {
+    height: 100%;
+    position: fixed;
+    background: url(../../../assets/images/background/NotFoundPage.png) no-repeat center center #fff;
+    width: 100%;
+}
+
+.error-content-botton {
+    padding: 2%;
+}
+
+.error-derecha-top {
+    left: 0;
+}
