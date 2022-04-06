@@ -1,2 +1,46 @@
 /* ******Developed by******
 ***Albeiro Vidal Rojas** */
+
+.login-register {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 10% 0;
+    position: fixed;
+}
+
+.login-sidebar {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.login-sidebar .login-box {
+    right: 0px;
+    position: absolute;
+    height: 100%;
+    background-color: white;
+}
+
+.login-icon {
+    width: 80px;
+    height: 30px;
+}
+
+.login-letter {
+    font: oblique bold 120% cursive;
+}
+
+.card-body {
+    padding-top: 20%;
+}
+
+.inputs-padding {
+    padding-top: 5%;
+}
+
+.login-box {
+    width: 400px;
+    margin: 0 auto;
+}
