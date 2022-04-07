@@ -2,7 +2,7 @@
 ***Albeiro Vidal Rojas** */
 
 .pwc-icon {
-    width: 10%;
+    width: 20%;
     height: 5%;
 }
 
@@ -13,4 +13,34 @@
     display: flex;
     flex-flow: row nowrap;
     padding-top: 8px
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* .border-div {
+    width: 300px;
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: cadetblue;
+} */
+
+
+/* 
+.hr{
+    height:2vh;
+    width:.2vw;
+    border-width:0;
+    color:#000;
+    background-color:#000;
+} */
+
+.align-contens {
+    text-align: end;
+    padding-right: 10%;
 }
