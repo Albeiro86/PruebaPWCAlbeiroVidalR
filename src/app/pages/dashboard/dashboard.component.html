@@ -12,33 +12,49 @@
                 <br>
                 <div class="row box">
                     <div class="col-md-4">
-                        <app-cards-columns [srcimage]="image1"></app-cards-columns>
+                        <app-cards-columns [srcimage]="image1" [srclink]="link1"></app-cards-columns>
                         <strong>
                             {{parrafo1}}
                         </strong>
+                        <div class="button-link">
+                            <a href="https://www.pwc.com/co/es/pwc-insights/cop26-union-materializacion.html">
+                                <button type="button" class="btn btn-danger">
+                                    <strong>Leelo aquí</strong>
+                                </button>
+                            </a>
+                        </div>
+
                     </div>
                     <div class="col-md-4">
-                        <app-cards-columns [srcimage]="image2"></app-cards-columns>
+                        <app-cards-columns [srcimage]="image2" [srclink]="link2"></app-cards-columns>
                         <strong>
                             {{parrafo2}}
                         </strong>
+                        <div class="button-link">
+                            <a href="https://www.pwc.com/co/es/pwc-insights/negocios-familiares-esg.html">
+                                <button type="button" class="btn btn-danger">
+                                    <strong>Leelo aquí</strong>
+                                </button>
+                            </a>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <app-cards-columns [srcimage]="image3"></app-cards-columns>
+                        <app-cards-columns [srcimage]="image3" [srclink]="link3"></app-cards-columns>
                         <strong>
                             {{parrafo3}}
                         </strong>
+                        <div class="button-link">
+                            <a href="https://www.pwc.com/co/es/pwc-insights/beneficios-tributarios.html">
+                                <button type="button" class="btn btn-danger">
+                                    <strong>Leelo aquí</strong>
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
             </div>
         </div>
     </div>
+    <app-seccion-insights-home></app-seccion-insights-home>
+
 </div>

@@ -16,6 +16,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { PagesComponent } from './pages/pages.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { CardsColumnsComponent } from './components/cards-columns/cards-columns.component';
+import { SeccionInsightsHomeComponent } from './components/seccion-insights-home/seccion-insights-home.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { CardsColumnsComponent } from './components/cards-columns/cards-columns.
     HeaderComponent,
     PagesComponent,
     CarouselComponent,
-    CardsColumnsComponent
+    CardsColumnsComponent,
+    SeccionInsightsHomeComponent
   ],
   imports: [
     BrowserModule,

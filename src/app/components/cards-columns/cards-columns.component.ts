@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardsColumnsComponent implements OnInit {
   
   @Input () srcimage: string ="";
+  @Input () srclink: string ="";
 
   constructor() { }
 

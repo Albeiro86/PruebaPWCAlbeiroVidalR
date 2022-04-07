@@ -12,6 +12,10 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
+  link1="https://www.pwc.com/co/es/pwc-times/cop26-union-materializacion.html";
+  link2="https://www.pwc.com/co/es/pwc-times/negocios-familiares-esg.html";
+  link3="https://www.pwc.com/co/es/pwc-times/beneficios-tributarios.html";
+
   image1="./assets/images/cards-colums/card-colum1.png";
   image2="./assets/images/cards-colums/card-colum2.png";
   image3="./assets/images/cards-colums/card-colum3.png";
