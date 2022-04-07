@@ -6,19 +6,8 @@
         <div class="card">
             <div class="card-body">
                 <div class="container-fluid">
-                    <!-- inicio del carousel con la libreria heredada de Bootstrap -->
-                    <ngb-carousel>
-                        <ng-template ngbSlide *ngFor="let image of images">
-                            <div class="wrapper">
-                                <img [src]="image.src" alt="Random first slide">
-                            </div>
-                        </ng-template>
-                    </ngb-carousel>
-
+                    <app-carousel></app-carousel>
                 </div>
-
-
-
             </div>
         </div>
     </div>

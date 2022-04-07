@@ -14,6 +14,7 @@ import { NoFoundComponent } from './pages/404/no-found.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { PagesComponent } from './pages/pages.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { PagesComponent } from './pages/pages.component';
     NoFoundComponent,
     DashboardComponent,    
     HeaderComponent,
-    PagesComponent
+    PagesComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
