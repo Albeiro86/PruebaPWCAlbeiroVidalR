@@ -1,0 +1,8 @@
+.box {
+    height: 200px;
+}
+
+.imagen-carousel {
+    object-fit: cover;
+    object-position: center center;
+}
