@@ -1,2 +1,16 @@
 /* ******Developed by******
 ***Albeiro Vidal Rojas** */
+
+.pwc-icon {
+    width: 10%;
+    height: 5%;
+}
+
+.nav-secondary {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 8px
+}
