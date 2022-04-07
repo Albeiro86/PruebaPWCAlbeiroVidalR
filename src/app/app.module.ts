@@ -15,6 +15,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { PagesComponent } from './pages/pages.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { CardsColumnsComponent } from './components/cards-columns/cards-columns.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     DashboardComponent,    
     HeaderComponent,
     PagesComponent,
-    CarouselComponent
+    CarouselComponent,
+    CardsColumnsComponent
   ],
   imports: [
     BrowserModule,

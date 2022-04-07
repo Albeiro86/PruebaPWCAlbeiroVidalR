@@ -1,7 +1,7 @@
 /* ******Developed by******
 ***Albeiro Vidal Rojas** */
 
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 
 @Component({
@@ -11,6 +11,14 @@ import { Component, OnInit } from '@angular/core';
   
 })
 export class DashboardComponent implements OnInit {
+
+  image1="./assets/images/cards-colums/card-colum1.png";
+  image2="./assets/images/cards-colums/card-colum2.png";
+  image3="./assets/images/cards-colums/card-colum3.png";
+  
+  public parrafo1: string ="COP26, la cumbre de la unión y la materialización de las acciones para enfrentar el cambio climático";
+  public parrafo2: string ="  Los negocios familiares tienen la oportunidad de liderar en los factores ESG";
+  public parrafo3: string ="Beneficios tributarios establecidos en los Artículos 45, 46 y 47 de la Ley 2155 de septiembre 14 de 2021.";
   
   constructor() {
    
