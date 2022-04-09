@@ -17,6 +17,9 @@ import { PagesComponent } from './pages/pages.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { CardsColumnsComponent } from './components/cards-columns/cards-columns.component';
 import { SeccionInsightsHomeComponent } from './components/seccion-insights-home/seccion-insights-home.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -36,6 +39,9 @@ import { SeccionInsightsHomeComponent } from './components/seccion-insights-home
     AppRoutingModule,
     NgbModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

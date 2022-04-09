@@ -4,19 +4,20 @@
 <section class="login-register login-sidebar" style="background-image:url(../assets/images/background/login-pwc.jpeg);">
     <div class="login-box card">
         <div class="card-body">
-            <form class="form-horizontal form-material" id="loginform" action="index.html">
+            <form class="form-horizontal form-material" id="loginform" [formGroup]="loginForm" (ngSubmit)="login()" autocomplete="off" action="index.html">
                 <a class="text-center"><img src="../assets/images/icons/pwc.png" alt="IconPWC" class="login-icon" />
                 </a>
                 <br>
                 <p class="login-letter">Prueba de conocimiento Albeiro</p>
                 <div class="form-group m-t-40 inputs-padding">
                     <div class="col-xs-12">
-                        <input class="form-control" type="text" required="" placeholder="Username">
+                        <input class="form-control" type="text" formControlName="nombre" placeholder="Username">
                     </div>
                 </div>
                 <div class="form-group inputs-padding">
                     <div class="col-xs-12">
-                        <input class="form-control" type="password" required="" placeholder="Password">
+                        <input class="form-control" type="password" placeholder="Password" formControlName="password">
+
                     </div>
                 </div>
 
