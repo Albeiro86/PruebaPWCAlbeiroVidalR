@@ -32,10 +32,12 @@ export class LoginComponent  {
     this.usuarioService.login(this.loginForm.value)
     .subscribe(resp=>{
       console.log(resp)
+      this.router.navigateByUrl('/');
     },(err)=>{
       Swal.fire('Error', err.error.msg, 'error');
       
     })
+    
    
   }
 }

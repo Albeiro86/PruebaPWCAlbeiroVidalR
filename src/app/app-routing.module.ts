@@ -9,10 +9,13 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { LoginComponent } from './auth/login/login.component';
 import { NoFoundComponent } from './pages/404/no-found.component';
 import { PagesComponent } from './pages/pages.component';
+import { AuthGuard } from './guards/auth.guard';
 
 const routes: Routes = [
   {
     path: '', component:PagesComponent,
+    //canActive para protejer rutas
+    canActivate: [AuthGuard],
     children:[
       {path: 'dasboard', component: DashboardComponent},
       {path: '', redirectTo:'/dasboard', pathMatch:'full'},
